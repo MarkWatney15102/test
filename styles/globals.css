@@ -14,24 +14,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-/* Main */
-@import url("./main.css");
-
-/* Background */
-@import url("./background.css");
-
-/* Banner */
-@import url("./banner.css");
-
-/* Footer */
-@import url("./footer.css");
-
-/* Form */
-@import url("./form.css");
-
-/* Sonstiges */
-@import url("./other.css");
-
-/* Notification */
-@import url("./notification.css");
