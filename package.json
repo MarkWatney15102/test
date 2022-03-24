@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "next start -- -H 82.165.108.105",
+    "start": "next start",
     "build": "next build"
   },
   "dependencies": {
