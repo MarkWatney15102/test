@@ -1,0 +1,15 @@
+.background-image {
+    background-color: #e8e8e8;
+}
+
+.profile-pic {
+    margin: 15px;
+    border-radius: 5px;
+    height: 200px;
+    width: auto;
+}
+
+.page-banner h1, 
+.page-banner h6 {
+    color: aliceblue;
+}

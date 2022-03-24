@@ -1,0 +1,27 @@
+body {
+    background-color: #e8e8e8 !important;
+}
+
+.content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem
+}
+
+.navbar {
+    background-color: #161B22 !important;
+    color: aliceblue !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: rgba(240,248,255,.9) !important;
+    transition: color ease-in .1s;
+}
+
+.navbar .navbar-link:hover {
+    color: rgba(240,248,255,.6) !important;
+}
