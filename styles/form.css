@@ -1,0 +1,57 @@
+.form-control {
+    margin-bottom: 10px;
+    transition: .3s ease all;
+}
+
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+    transition: .3s ease all;
+    background-color: #4e555b;
+    color: aliceblue;
+}
+
+.form-control:hover::placeholder,
+.form-control:active::placeholder,
+.form-control:focus::placeholder {
+    color: aliceblue;
+}
+
+.card-title {
+    margin: auto;
+}
+
+.col-lg-1 > .card,
+.col-lg-2 > .card,
+.col-lg-3 > .card,
+.col-lg-4 > .card,
+.col-lg-5 > .card,
+.col-lg-6 > .card,
+.col-lg-7 > .card,
+.col-lg-8 > .card,
+.col-lg-9 > .card,
+.col-lg-10 > .card,
+.col-lg-11 > .card,
+.col-lg-12 > .card {
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.card-body > h2 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #161B22;
+}
+
+.card-body > ul > li {
+    font-size: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}

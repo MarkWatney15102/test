@@ -1,0 +1,45 @@
+.bg-main {
+    background-color: darkslateblue;
+}
+
+.row,
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.page-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.desc {
+    font-size: 1.75rem;
+}
+
+.desc a {
+    text-decoration: none !important;
+    color: #000000;
+    font-weight: bold;
+    transition: color ease-in .1s;
+}
+
+.desc a:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.header {
+    padding: 10px !important;
+}
+
+.header .col-12:last-child {
+    border-top: 1px solid aliceblue;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .header .col-12:last-child {
+        border-top: 0;
+        text-align: left;
+    }
+}
