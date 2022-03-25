@@ -11,6 +11,9 @@ function Navbar () {
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/projects">Meine Projekte</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/aboutme">Über mich</a>
                     </li>
                     <li class="nav-item">

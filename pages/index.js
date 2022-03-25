@@ -8,5 +8,7 @@ export default function Home() {
     <br />
     <NextGoals />
     <br />
+    <Projects />
+    <br />
   </>;
 }
