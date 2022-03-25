@@ -16,7 +16,7 @@ export default function createChangelog () {
         userId: userId,
         userToken: token
     };
-    axios.post("http://127.0.0.1:43921/changelog/create", data).then((response) => {
+    axios.post("http://82.165.108.105:43921/changelog/create", data).then((response) => {
         location.reload();
     });
 }

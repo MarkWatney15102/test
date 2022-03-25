@@ -7,7 +7,7 @@ export default function Development({ changelogs }) {
 }
 
 export async function getServerSideProps() {
-   const res = await fetch('http://127.0.0.1:43921/api/changelog');
+   const res = await fetch('http://82.165.108.105:43921/api/changelog');
    const { data } = await res.json();
    return {
        props: { changelogs: data }

@@ -10,7 +10,7 @@ function Projects () {
 
     useEffect(
         () => {
-            axios.get('http://127.0.0.1:43921/github/repos').then((response) => {
+            axios.get('http://82.165.108.105:43921/github/repos').then((response) => {
                 setData(response.data.repos);
                 setLoaded(true);
             });

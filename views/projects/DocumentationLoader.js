@@ -7,7 +7,7 @@ function DocumentationLoader (projectId) {
 
     useEffect(
         () => {
-            axios.get('http://127.0.0.1:43921/project/docu/' + projectId).then((response) => {
+            axios.get('http://82.165.108.105:43921/project/docu/' + projectId).then((response) => {
                 let projectDocuDate = [];
                 for (let k in response.data.data) {
                     projectDocuDate.push(response.data.data[k]);
